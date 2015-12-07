@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>plastboks-overlay</name>
+    <description lang="en">Plastboks gentoo overlay</description>
+    <homepage>https://github.com/plastboks/gentoo-overlay</homepage>
+    <owner type="person">
+		<email>alex@plastboks.net</email>
+		<name>Alexander Skjolden</name>
+    </owner>
+    <source type="git">git://github.com/plastboks/gentoo-overlay.git</source>
+    <feed>https://github.com/plastboks/gentoo-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
