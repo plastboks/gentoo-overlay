@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<layman>
+   <overlay
+      type    = "git"
+      src     = "https://github.com/plastboks/gentoo-overlay.git"
+      contact = ""
+      status  = "unofficial"
+      name    = "plastboks-overlay"
+    >
+      <link>https://github.com/plastboks/overlay</link>
+      <description>plastboks personal overlay</description>
+   </overlay>
+</layman>
