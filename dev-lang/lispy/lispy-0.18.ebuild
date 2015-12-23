@@ -11,3 +11,13 @@ EGIT_REPO_URI="https://github.com/plastboks/lispy.git"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
+
+src_compile() {
+    if [ -f Makefile ] || [ -f GNUmakefile ] || [ -f makefile ]; then
+        emake || die "emake failed"
+    fi
+}
+
+src_install() {
+    emake DESTDIR="${D}" install
+}
